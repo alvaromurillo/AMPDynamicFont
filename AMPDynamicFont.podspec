@@ -4,7 +4,8 @@ Pod::Spec.new do |s|
   s.summary          = 'Dynamic font for UILabel, UIButton, UITextField and UITextView'
 
   s.description      = <<-DESC
-Dynamic font for UILabel, UIButton, UITextField and UITextView
+Dynamic font for UILabel, UIButton, UITextField and UITextView.
+Works with custom fonts, you don't need to use dynamic type sizes.
                        DESC
 
   s.homepage         = 'https://github.com/alvaromurillo/AMPDynamicFont'
