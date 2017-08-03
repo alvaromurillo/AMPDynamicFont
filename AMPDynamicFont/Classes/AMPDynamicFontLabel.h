@@ -10,4 +10,6 @@
 
 @interface AMPDynamicFontLabel : UILabel
 
+@property (nonatomic, readonly) CGFloat baseFontSize;
+
 @end

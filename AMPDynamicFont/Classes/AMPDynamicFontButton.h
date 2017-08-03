@@ -10,4 +10,6 @@
 
 @interface AMPDynamicFontButton : UIButton
 
+@property (nonatomic, readonly) CGFloat baseFontSize;
+
 @end

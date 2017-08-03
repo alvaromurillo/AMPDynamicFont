@@ -10,4 +10,6 @@
 
 @interface AMPDynamicFontTextField : UITextField
 
+@property (nonatomic, readonly) CGFloat baseFontSize;
+
 @end
