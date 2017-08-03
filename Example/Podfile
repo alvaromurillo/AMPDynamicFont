@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AMPDynamicFont_Example' do
+  pod 'AMPDynamicFont', :path => '../'
+
+  target 'AMPDynamicFont_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

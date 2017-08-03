@@ -1,0 +1,6 @@
+framework module Pods_AMPDynamicFont_Example {
+  umbrella header "Pods-AMPDynamicFont_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

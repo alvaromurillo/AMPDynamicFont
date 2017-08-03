@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A9401F2E7D2708BEBDB9AD15D05292 /* UIFont+AMPDynamicFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBABFE3EDFAEADF43564D737FA3689 /* UIFont+AMPDynamicFont.m */; };
+		19B2FF13335E714C2384B0F567F943B5 /* AMPDynamicFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC25FEF309299D33657FE3F51CC0B749 /* AMPDynamicFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6CD866ED3D138B92341DF99204490C /* AMPDynamicFontButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B81CDB032B695DE0B056ED37F37A3 /* AMPDynamicFontButton.m */; };
+		65425806559C649B6756ABC2E31A3425 /* Pods-AMPDynamicFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8E9501732182A6A9D956A35FC03D9 /* Pods-AMPDynamicFont_Example-dummy.m */; };
+		7DCA99D30E43F8D32E7814AD803EBEB3 /* AMPDynamicFontLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDB96F8252A2C3617CCB2AF05C7CF2D /* AMPDynamicFontLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8176C89D36F45EA13CE2A35FAFDC3DC4 /* Pods-AMPDynamicFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF3E4DC20E05A6CA60C99DCAA8956D0 /* Pods-AMPDynamicFont_Tests-dummy.m */; };
+		8CD98CB5AB5698C3CEBB46F69EA66630 /* UIFont+AMPDynamicFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B77DE3F7BE64E1A8DFBFFD559966D849 /* UIFont+AMPDynamicFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C2A95D087ADF08ACC96135B7CFE503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AF84ACC452F290F4BA957633A2CBB57E /* AMPDynamicFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E172050E628CF7980B78A1204E6FD393 /* AMPDynamicFontLabel.m */; };
+		C2C752061F3330B6001A5013 /* AMPDynamicFontTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C752041F3330B6001A5013 /* AMPDynamicFontTextField.h */; };
+		C2C752071F3330B6001A5013 /* AMPDynamicFontTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C752051F3330B6001A5013 /* AMPDynamicFontTextField.m */; };
+		C2C7520A1F33323D001A5013 /* AMPDynamicFontTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C752081F33323D001A5013 /* AMPDynamicFontTextView.h */; };
+		C2C7520B1F33323D001A5013 /* AMPDynamicFontTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C752091F33323D001A5013 /* AMPDynamicFontTextView.m */; };
+		D2C57C2706BEDE63986CA77847A3253D /* AMPDynamicFontButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B4563D786E61F0A657BB3F604B7C8193 /* AMPDynamicFontButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E41F5D392C0AC37B5A9AE891DDB9280E /* AMPDynamicFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98ACA42E6C311CBBE1317511F7F847 /* AMPDynamicFont-dummy.m */; };
+		E7FD7625A79B319ACAC97456E44B117A /* Pods-AMPDynamicFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9153CF316AB57D1B04F6DE44EA883F /* Pods-AMPDynamicFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB0E4B0E4219F56112E3E8C1C54D8401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F24DA52F1D53918AADD0F34920801190 /* Pods-AMPDynamicFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAC99DAACBACE2A113B4F6DE613BCCB /* Pods-AMPDynamicFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5BBED9084583067775D2AAD7F7E7214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAECED190A3B125CC7F3E5CC4A7ACCD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F02E1478DFEB18707F462F212127EFD;
+			remoteInfo = AMPDynamicFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026A1C8C7748FB8E00640FD7A44870C6 /* Pods-AMPDynamicFont_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMPDynamicFont_Tests-resources.sh"; sourceTree = "<group>"; };
+		0ABD6826EE5CD8EC75A32F96109EAD7F /* Pods-AMPDynamicFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AMPDynamicFont_Example.modulemap"; sourceTree = "<group>"; };
+		0C009D7DCD87414426D744EB01CF796B /* Pods-AMPDynamicFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMPDynamicFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EAC476D46CDC70149F957AA2D88ECCF /* Pods-AMPDynamicFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMPDynamicFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14A74B429DE7939DF6D2FA3A23A43381 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3691EF7E3E548DE825F4F17BC575B77D /* Pods-AMPDynamicFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMPDynamicFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D001CCA6FCC89B36EC12D279C37A5C2 /* Pods-AMPDynamicFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMPDynamicFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9187106A2AD47A4395D7D077861452 /* Pods-AMPDynamicFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AMPDynamicFont_Tests.modulemap"; sourceTree = "<group>"; };
+		55729E4684185BF8B978F7D73FAAAA7D /* AMPDynamicFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPDynamicFont-prefix.pch"; sourceTree = "<group>"; };
+		5FDB96F8252A2C3617CCB2AF05C7CF2D /* AMPDynamicFontLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AMPDynamicFontLabel.h; sourceTree = "<group>"; };
+		6218893C3D5F1A906D0ED177D4D31CA3 /* Pods-AMPDynamicFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMPDynamicFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CA4966E2601045BDA3EABC3A2BBFEA2 /* Pods-AMPDynamicFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMPDynamicFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F9716F524613536FE873242F1A4907A /* AMPDynamicFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AMPDynamicFont.modulemap; sourceTree = "<group>"; };
+		760BEED309ACE8952F4656E157C6CA2A /* Pods_AMPDynamicFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMPDynamicFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF3E4DC20E05A6CA60C99DCAA8956D0 /* Pods-AMPDynamicFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMPDynamicFont_Tests-dummy.m"; sourceTree = "<group>"; };
+		87A39A77368B7EEE2CB2FEC58A470637 /* AMPDynamicFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMPDynamicFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D0A269924F28DF71F7A8B915AF0EC4 /* AMPDynamicFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPDynamicFont.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B4B81CDB032B695DE0B056ED37F37A3 /* AMPDynamicFontButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AMPDynamicFontButton.m; sourceTree = "<group>"; };
+		9CBBABFE3EDFAEADF43564D737FA3689 /* UIFont+AMPDynamicFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AMPDynamicFont.m"; sourceTree = "<group>"; };
+		9DC8E9501732182A6A9D956A35FC03D9 /* Pods-AMPDynamicFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMPDynamicFont_Example-dummy.m"; sourceTree = "<group>"; };
+		A09BBFD96DD945DF48CC9E9097AEC173 /* Pods-AMPDynamicFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMPDynamicFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8C1ADFE45440879795FBA1861FDF0A1 /* Pods-AMPDynamicFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMPDynamicFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4563D786E61F0A657BB3F604B7C8193 /* AMPDynamicFontButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AMPDynamicFontButton.h; sourceTree = "<group>"; };
+		B77DE3F7BE64E1A8DFBFFD559966D849 /* UIFont+AMPDynamicFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+AMPDynamicFont.h"; sourceTree = "<group>"; };
+		BC25FEF309299D33657FE3F51CC0B749 /* AMPDynamicFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPDynamicFont-umbrella.h"; sourceTree = "<group>"; };
+		BE040EADD4DEA915657B33D226D3DAF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C752041F3330B6001A5013 /* AMPDynamicFontTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPDynamicFontTextField.h; sourceTree = "<group>"; };
+		C2C752051F3330B6001A5013 /* AMPDynamicFontTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPDynamicFontTextField.m; sourceTree = "<group>"; };
+		C2C752081F33323D001A5013 /* AMPDynamicFontTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPDynamicFontTextView.h; sourceTree = "<group>"; };
+		C2C752091F33323D001A5013 /* AMPDynamicFontTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPDynamicFontTextView.m; sourceTree = "<group>"; };
+		CF9153CF316AB57D1B04F6DE44EA883F /* Pods-AMPDynamicFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMPDynamicFont_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D54C556F705F4147899CBCDCD77C0A4F /* Pods-AMPDynamicFont_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMPDynamicFont_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DCF03B07F3D82ABF4259A79141EB9804 /* Pods-AMPDynamicFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMPDynamicFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DD88719C6DB1419035D1D3CBA385A0E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD98ACA42E6C311CBBE1317511F7F847 /* AMPDynamicFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPDynamicFont-dummy.m"; sourceTree = "<group>"; };
+		E172050E628CF7980B78A1204E6FD393 /* AMPDynamicFontLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AMPDynamicFontLabel.m; sourceTree = "<group>"; };
+		E9BEEB8029CE4CD465CE77AB2E953885 /* Pods_AMPDynamicFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMPDynamicFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9DC769ABBEBA2F35E8FA75FEFEE04D /* Pods-AMPDynamicFont_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMPDynamicFont_Example-resources.sh"; sourceTree = "<group>"; };
+		ECAC99DAACBACE2A113B4F6DE613BCCB /* Pods-AMPDynamicFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMPDynamicFont_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC710AE1C1206F3A6AA4E45CC50BC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0E4B0E4219F56112E3E8C1C54D8401 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD165124C9FB43C24D969C900384DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C2A95D087ADF08ACC96135B7CFE503 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DDBA71B8ADFD69B931203B7B511D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BBED9084583067775D2AAD7F7E7214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F31AF20C9D9173267B517D4C3427BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A39A77368B7EEE2CB2FEC58A470637 /* AMPDynamicFont.framework */,
+				760BEED309ACE8952F4656E157C6CA2A /* Pods_AMPDynamicFont_Example.framework */,
+				E9BEEB8029CE4CD465CE77AB2E953885 /* Pods_AMPDynamicFont_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289C6EAB12C71687438E52579592E747 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95C749960AE1048F5B07A7CC9733D457 /* Pods-AMPDynamicFont_Example */,
+				D1CC54D8B195E039CD1CBA692D5B2FB5 /* Pods-AMPDynamicFont_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		701DCE62A8BD3948C99F53A484DE41FD /* AMPDynamicFont */ = {
+			isa = PBXGroup;
+			children = (
+				D06C70B5F48D45B74D542BCE127E41D1 /* AMPDynamicFont */,
+				CC95CEABEA01E223AC59A87B74109236 /* Support Files */,
+			);
+			name = AMPDynamicFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FD3E40CFE07EAD7D0C1330BA594A56B5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				07F31AF20C9D9173267B517D4C3427BD /* Products */,
+				289C6EAB12C71687438E52579592E747 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		918555BDDBC855D9D85694C18612A89E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4563D786E61F0A657BB3F604B7C8193 /* AMPDynamicFontButton.h */,
+				9B4B81CDB032B695DE0B056ED37F37A3 /* AMPDynamicFontButton.m */,
+				5FDB96F8252A2C3617CCB2AF05C7CF2D /* AMPDynamicFontLabel.h */,
+				E172050E628CF7980B78A1204E6FD393 /* AMPDynamicFontLabel.m */,
+				B77DE3F7BE64E1A8DFBFFD559966D849 /* UIFont+AMPDynamicFont.h */,
+				9CBBABFE3EDFAEADF43564D737FA3689 /* UIFont+AMPDynamicFont.m */,
+				C2C752041F3330B6001A5013 /* AMPDynamicFontTextField.h */,
+				C2C752051F3330B6001A5013 /* AMPDynamicFontTextField.m */,
+				C2C752081F33323D001A5013 /* AMPDynamicFontTextView.h */,
+				C2C752091F33323D001A5013 /* AMPDynamicFontTextView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		95C749960AE1048F5B07A7CC9733D457 /* Pods-AMPDynamicFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				14A74B429DE7939DF6D2FA3A23A43381 /* Info.plist */,
+				0ABD6826EE5CD8EC75A32F96109EAD7F /* Pods-AMPDynamicFont_Example.modulemap */,
+				0EAC476D46CDC70149F957AA2D88ECCF /* Pods-AMPDynamicFont_Example-acknowledgements.markdown */,
+				6CA4966E2601045BDA3EABC3A2BBFEA2 /* Pods-AMPDynamicFont_Example-acknowledgements.plist */,
+				9DC8E9501732182A6A9D956A35FC03D9 /* Pods-AMPDynamicFont_Example-dummy.m */,
+				DCF03B07F3D82ABF4259A79141EB9804 /* Pods-AMPDynamicFont_Example-frameworks.sh */,
+				EA9DC769ABBEBA2F35E8FA75FEFEE04D /* Pods-AMPDynamicFont_Example-resources.sh */,
+				ECAC99DAACBACE2A113B4F6DE613BCCB /* Pods-AMPDynamicFont_Example-umbrella.h */,
+				4D001CCA6FCC89B36EC12D279C37A5C2 /* Pods-AMPDynamicFont_Example.debug.xcconfig */,
+				6218893C3D5F1A906D0ED177D4D31CA3 /* Pods-AMPDynamicFont_Example.release.xcconfig */,
+			);
+			name = "Pods-AMPDynamicFont_Example";
+			path = "Target Support Files/Pods-AMPDynamicFont_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC95CEABEA01E223AC59A87B74109236 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9716F524613536FE873242F1A4907A /* AMPDynamicFont.modulemap */,
+				90D0A269924F28DF71F7A8B915AF0EC4 /* AMPDynamicFont.xcconfig */,
+				DD98ACA42E6C311CBBE1317511F7F847 /* AMPDynamicFont-dummy.m */,
+				55729E4684185BF8B978F7D73FAAAA7D /* AMPDynamicFont-prefix.pch */,
+				BC25FEF309299D33657FE3F51CC0B749 /* AMPDynamicFont-umbrella.h */,
+				DD88719C6DB1419035D1D3CBA385A0E3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AMPDynamicFont";
+			sourceTree = "<group>";
+		};
+		D06C70B5F48D45B74D542BCE127E41D1 /* AMPDynamicFont */ = {
+			isa = PBXGroup;
+			children = (
+				918555BDDBC855D9D85694C18612A89E /* Classes */,
+			);
+			path = AMPDynamicFont;
+			sourceTree = "<group>";
+		};
+		D1CC54D8B195E039CD1CBA692D5B2FB5 /* Pods-AMPDynamicFont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE040EADD4DEA915657B33D226D3DAF8 /* Info.plist */,
+				4F9187106A2AD47A4395D7D077861452 /* Pods-AMPDynamicFont_Tests.modulemap */,
+				0C009D7DCD87414426D744EB01CF796B /* Pods-AMPDynamicFont_Tests-acknowledgements.markdown */,
+				A8C1ADFE45440879795FBA1861FDF0A1 /* Pods-AMPDynamicFont_Tests-acknowledgements.plist */,
+				7AF3E4DC20E05A6CA60C99DCAA8956D0 /* Pods-AMPDynamicFont_Tests-dummy.m */,
+				D54C556F705F4147899CBCDCD77C0A4F /* Pods-AMPDynamicFont_Tests-frameworks.sh */,
+				026A1C8C7748FB8E00640FD7A44870C6 /* Pods-AMPDynamicFont_Tests-resources.sh */,
+				CF9153CF316AB57D1B04F6DE44EA883F /* Pods-AMPDynamicFont_Tests-umbrella.h */,
+				A09BBFD96DD945DF48CC9E9097AEC173 /* Pods-AMPDynamicFont_Tests.debug.xcconfig */,
+				3691EF7E3E548DE825F4F17BC575B77D /* Pods-AMPDynamicFont_Tests.release.xcconfig */,
+			);
+			name = "Pods-AMPDynamicFont_Tests";
+			path = "Target Support Files/Pods-AMPDynamicFont_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD3E40CFE07EAD7D0C1330BA594A56B5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				701DCE62A8BD3948C99F53A484DE41FD /* AMPDynamicFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AF7EEAB2AEB3FBF853C83BD09549526D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C57C2706BEDE63986CA77847A3253D /* AMPDynamicFontButton.h in Headers */,
+				C2C7520A1F33323D001A5013 /* AMPDynamicFontTextView.h in Headers */,
+				19B2FF13335E714C2384B0F567F943B5 /* AMPDynamicFont-umbrella.h in Headers */,
+				7DCA99D30E43F8D32E7814AD803EBEB3 /* AMPDynamicFontLabel.h in Headers */,
+				8CD98CB5AB5698C3CEBB46F69EA66630 /* UIFont+AMPDynamicFont.h in Headers */,
+				C2C752061F3330B6001A5013 /* AMPDynamicFontTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD139609FE010574979F16B4A5F818E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24DA52F1D53918AADD0F34920801190 /* Pods-AMPDynamicFont_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F055EF7D276AC5D90FD4C8952E542AE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FD7625A79B319ACAC97456E44B117A /* Pods-AMPDynamicFont_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F02E1478DFEB18707F462F212127EFD /* AMPDynamicFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82E00ED747AADB17ACE81899C672F8F /* Build configuration list for PBXNativeTarget "AMPDynamicFont" */;
+			buildPhases = (
+				AF39E94B4D3519CCCDE333B85F54119E /* Sources */,
+				97DDBA71B8ADFD69B931203B7B511D9C /* Frameworks */,
+				AF7EEAB2AEB3FBF853C83BD09549526D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMPDynamicFont;
+			productName = AMPDynamicFont;
+			productReference = 87A39A77368B7EEE2CB2FEC58A470637 /* AMPDynamicFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C23A06D6970580B3E7E9660D77634BD3 /* Pods-AMPDynamicFont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9459CEF7BC15565A61954156813639A /* Build configuration list for PBXNativeTarget "Pods-AMPDynamicFont_Tests" */;
+			buildPhases = (
+				76055F589467A957889197A36CDA0A59 /* Sources */,
+				3CC710AE1C1206F3A6AA4E45CC50BC2E /* Frameworks */,
+				F055EF7D276AC5D90FD4C8952E542AE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AMPDynamicFont_Tests";
+			productName = "Pods-AMPDynamicFont_Tests";
+			productReference = E9BEEB8029CE4CD465CE77AB2E953885 /* Pods_AMPDynamicFont_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4DF655E85555F86E3F81D511541431E /* Pods-AMPDynamicFont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15C6A125517ACE4148742547F3D5F23 /* Build configuration list for PBXNativeTarget "Pods-AMPDynamicFont_Example" */;
+			buildPhases = (
+				7D862C18A4C1A1EDEC81263D69653D29 /* Sources */,
+				8EBD165124C9FB43C24D969C900384DB /* Frameworks */,
+				DCD139609FE010574979F16B4A5F818E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C294A54632CAAF2C54352FA57FD1D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-AMPDynamicFont_Example";
+			productName = "Pods-AMPDynamicFont_Example";
+			productReference = 760BEED309ACE8952F4656E157C6CA2A /* Pods_AMPDynamicFont_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 07F31AF20C9D9173267B517D4C3427BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F02E1478DFEB18707F462F212127EFD /* AMPDynamicFont */,
+				D4DF655E85555F86E3F81D511541431E /* Pods-AMPDynamicFont_Example */,
+				C23A06D6970580B3E7E9660D77634BD3 /* Pods-AMPDynamicFont_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76055F589467A957889197A36CDA0A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8176C89D36F45EA13CE2A35FAFDC3DC4 /* Pods-AMPDynamicFont_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D862C18A4C1A1EDEC81263D69653D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65425806559C649B6756ABC2E31A3425 /* Pods-AMPDynamicFont_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF39E94B4D3519CCCDE333B85F54119E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6CD866ED3D138B92341DF99204490C /* AMPDynamicFontButton.m in Sources */,
+				E41F5D392C0AC37B5A9AE891DDB9280E /* AMPDynamicFont-dummy.m in Sources */,
+				C2C7520B1F33323D001A5013 /* AMPDynamicFontTextView.m in Sources */,
+				AF84ACC452F290F4BA957633A2CBB57E /* AMPDynamicFontLabel.m in Sources */,
+				09A9401F2E7D2708BEBDB9AD15D05292 /* UIFont+AMPDynamicFont.m in Sources */,
+				C2C752071F3330B6001A5013 /* AMPDynamicFontTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47C294A54632CAAF2C54352FA57FD1D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMPDynamicFont;
+			target = 3F02E1478DFEB18707F462F212127EFD /* AMPDynamicFont */;
+			targetProxy = EAECED190A3B125CC7F3E5CC4A7ACCD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0897B7F0C305C0F5B6F517186992A424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D001CCA6FCC89B36EC12D279C37A5C2 /* Pods-AMPDynamicFont_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AMPDynamicFont_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMPDynamicFont_Example/Pods-AMPDynamicFont_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMPDynamicFont_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3FE6375BCAF36D276488F3B81DC74099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09BBFD96DD945DF48CC9E9097AEC173 /* Pods-AMPDynamicFont_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AMPDynamicFont_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMPDynamicFont_Tests/Pods-AMPDynamicFont_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMPDynamicFont_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4659FD1D44FEC6F8492350009EC80ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3691EF7E3E548DE825F4F17BC575B77D /* Pods-AMPDynamicFont_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AMPDynamicFont_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMPDynamicFont_Tests/Pods-AMPDynamicFont_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMPDynamicFont_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B6CD34B0A15F1A9D2FB4ED6DD9E58AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D0A269924F28DF71F7A8B915AF0EC4 /* AMPDynamicFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMPDynamicFont/AMPDynamicFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMPDynamicFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMPDynamicFont/AMPDynamicFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AMPDynamicFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B91E31C264332515E5DA45001023324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6218893C3D5F1A906D0ED177D4D31CA3 /* Pods-AMPDynamicFont_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AMPDynamicFont_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMPDynamicFont_Example/Pods-AMPDynamicFont_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMPDynamicFont_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A286BEF111ABE423244C56D2CC6539DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D0A269924F28DF71F7A8B915AF0EC4 /* AMPDynamicFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMPDynamicFont/AMPDynamicFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMPDynamicFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMPDynamicFont/AMPDynamicFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AMPDynamicFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82E00ED747AADB17ACE81899C672F8F /* Build configuration list for PBXNativeTarget "AMPDynamicFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6CD34B0A15F1A9D2FB4ED6DD9E58AF /* Debug */,
+				A286BEF111ABE423244C56D2CC6539DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15C6A125517ACE4148742547F3D5F23 /* Build configuration list for PBXNativeTarget "Pods-AMPDynamicFont_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0897B7F0C305C0F5B6F517186992A424 /* Debug */,
+				9B91E31C264332515E5DA45001023324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9459CEF7BC15565A61954156813639A /* Build configuration list for PBXNativeTarget "Pods-AMPDynamicFont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE6375BCAF36D276488F3B81DC74099 /* Debug */,
+				4659FD1D44FEC6F8492350009EC80ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

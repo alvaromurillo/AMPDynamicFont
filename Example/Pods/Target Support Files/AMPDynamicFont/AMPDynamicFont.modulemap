@@ -1,0 +1,6 @@
+framework module AMPDynamicFont {
+  umbrella header "AMPDynamicFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

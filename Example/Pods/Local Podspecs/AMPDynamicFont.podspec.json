@@ -1,0 +1,22 @@
+{
+  "name": "AMPDynamicFont",
+  "version": "0.1.0",
+  "summary": "A short description of AMPDynamicFont.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alvaromurillo/AMPDynamicFont",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alvaromurillo": "alvaromurillop@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alvaromurillo/AMPDynamicFont.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AMPDynamicFont/Classes/**/*"
+}

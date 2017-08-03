@@ -1,0 +1,16 @@
+PODS:
+  - AMPDynamicFont (0.1.0)
+
+DEPENDENCIES:
+  - AMPDynamicFont (from `../`)
+
+EXTERNAL SOURCES:
+  AMPDynamicFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMPDynamicFont: f443b1d0f4181592ef536bcbe487593ee3e9cd56
+
+PODFILE CHECKSUM: 1926139d6276a8576f555ea032b1f955b7ccccee
+
+COCOAPODS: 1.2.1
